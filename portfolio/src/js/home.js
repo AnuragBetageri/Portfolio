@@ -10,18 +10,8 @@ function removeMenu() {
 
   menuBtm.style.display = "none";
 }
-// window.setTimeout(loadani, 200);
-
-
-// function loadani()
-// {
-//   var homeSec = document.getElementsByClassName("homeSec")[0];
-//   homeSec.classList.add("ani")
-//   console.log(homeSec.classList)
-// }
 
 function home() {
-  
   return (
     <section className="homeSec">
       <nav className="navBar">
@@ -62,6 +52,7 @@ function home() {
               <span>functional</span> and <span>elegant</span> software.
             </h2>
           </div>
+           <button className="scrollbtn">Scroll</button>
         </header>
 
         <div className="computerSvg">
@@ -73,7 +64,7 @@ function home() {
             autoplay
           ></lottie-player>
         </div>
-        <button>Know More</button>
+       
       </div>
     </section>
   );
