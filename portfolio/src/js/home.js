@@ -11,9 +11,18 @@ function removeMenu() {
   menuBtm.style.display = "none";
 }
 
+window.addEventListener("scroll", thelineani);
+
+function thelineani()
+{
+  var line = document.getElementsByClassName("the_line")[0];
+  var line_hight = (window.scrollY - 110)
+  line.style.height = line_hight + "px"
+}
+
 function home() {
   return (
-    <section className="homeSec">
+    <section id="homeSec">
       <nav className="navBar">
         <div className="logo">
           <span>&lt;</span>Anurag<span>&gt;</span>
@@ -44,15 +53,23 @@ function home() {
       <div className="homeBody">
         <header>
           <div className="hometitle">
+            
+            
+           
             <h1>
-              Hello <br></br>I'm Anurag C Betageri
+              Hello<br></br>I'm <span style={{color: "#fcd6e4" }}>Anurag C Betageri</span>
             </h1>
             <h2>
               Coding is my creative outlet,<br></br> where I turn ideas into{" "}
               <span>functional</span> and <span>elegant</span> software.
             </h2>
           </div>
-           <button className="scrollbtn">Scroll</button>
+          <div className="scrollLine">
+            <div className="the_line"></div>
+            <a href="">
+              <button className="scrollbtn">Scroll</button>
+            </a>
+          </div>
         </header>
 
         <div className="computerSvg">
@@ -64,7 +81,6 @@ function home() {
             autoplay
           ></lottie-player>
         </div>
-       
       </div>
     </section>
   );

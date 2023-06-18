@@ -1,12 +1,11 @@
-.homeSec {
-  background-color: #06000f;
+#homeSec {
+  background-color: #fcd6e4;
   width: 100vw;
   height: 100vh;
   color: aliceblue;
-  padding: 2rem 3rem;
-  position: relative;
-  overflow: hidden;
+  padding: 1.5rem 3rem;
   background-image: url('../images/home.jpg') ;
+  border-bottom: #c77dff 0.05cm solid;
  
 }
 
@@ -15,6 +14,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* animation-name: float;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    position: relative;
+    animation-iteration-count: infinite; */
 }
 
 .navBar span {
@@ -37,6 +41,10 @@ a:hover span,
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  /* animation-name: homeani;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1; */
   
   
 }
@@ -121,13 +129,13 @@ a:hover,
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-left: 2cm;
-    
+    justify-content: space-around;
+    /* margin-left: 2cm; */
     animation-name: homeani;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: 1;  
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+   animation-iteration-count: 1;
+      
 }
 @keyframes homeani
 {
@@ -144,24 +152,45 @@ a:hover,
     }
 }
 
+
 .homeBody  header  h1
-{
-
-
-    font-size: 2rem;  
-    border-bottom: #c77dff 0.1cm solid;
+{ 
+    border-bottom: #c77dff  0.15rem solid;
+    font-size: 2rem; 
     width: max-content;
     padding-bottom: 0.75rem;
     margin-bottom: 0.75rem;
     color: white;
+    letter-spacing: 0.1rem;
+    
+    
 }
+/* @keyframes float {
+    25%
+    {
+        transform: translateY(0.5rem);
+    transform: rotatez(10deg);
+    }
+    
+    50% {
+        transform: translateY(0rem);
+    }    
+
+    75%
+    {
+        transform: translateY(-0.5rem);
+    }
+    100% { 
+        transform: translateY(0);
+    }
+} */
 .homeBody span{
     color: #c77dff;
 }
 .homeBody  header  h2
 {
 
-
+    
     font-size: 1rem;  
 }
 
@@ -170,8 +199,8 @@ a:hover,
     /* background-color: #ff0000; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-top: 2.5cm;
 }
 
 .hometitle
@@ -181,21 +210,51 @@ a:hover,
     
 }
 .computerSvg{
-   position: absolute;
-   right: 1cm;
-   /* background-color: #ff0000; */
+   position: relative;
+   right: -1cm;  
+   
 }
+
+
+
+
 
 .scrollbtn
 {
-    width: 2cm;
-    height: 2cm;
-    border-radius: 1cm;
+    width: 1.8cm;
+    height: 1.8cm;
+    border-radius: 0.9cm;
     margin-top: 2cm;
-    border: #c77dff 0.1cm solid;
+   
     font-weight: bold;
+    background-color: #240046;
+    border: #c77dff solid 0.1rem;
+    color: #ffffff;
+    transition-duration: 0.5s;
+    z-index: 88;    
+    
+}
+
+.scrollbtn:hover
+{
+    border: #c77dff  0.1rem solid;
     background-color: #ffffff;
     color: #240046;
-    position: relative;
-    left: -3.75cm;
+    transform: scale(1.1);
+}
+
+.the_line
+{
+    background-color: #c77dff;
+    width: 0.1rem;
+    position: absolute;
+    
+    top: 100%;
+}
+.scrollLine{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+left: -4.75cm;
 }

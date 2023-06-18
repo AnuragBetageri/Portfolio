@@ -1,5 +1,5 @@
 import '../css/App.css';
-import Scroll_event from './scroll_event';
+import Contactme from './contactme';
 import Home from './home';
 
 
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       {/* <Scroll_event></Scroll_event> */}
       <Home> </Home>
+      <Contactme></Contactme>
     </div>
   );
 }
