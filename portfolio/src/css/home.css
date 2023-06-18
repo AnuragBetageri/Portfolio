@@ -1,0 +1,174 @@
+.homeSec {
+  background-color: #06000f;
+  width: 100vw;
+  height: 100vh;
+  color: aliceblue;
+  padding: 2rem 3rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../images/home.jpg') ;
+}
+
+/* Span and logo management */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBar span {
+  color: #7b2cbf;
+  font-size: 1rem;
+  margin: 0.1cm;
+  font-weight: bolder;
+}
+
+a:hover span,
+.logo:hover span {
+  color: #ff0000;
+  margin: 0.1cm;
+}
+
+/* nav bar */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  
+  
+}
+
+.navBtns {
+  display: flex;
+  z-index: 99;
+}
+.navBtns > a {
+  color: aliceblue;
+  margin-left: 2rem;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navOpen
+    {
+        position: relative;
+        display: none;
+        z-index: 90 ;
+        color: aliceblue;
+    }
+
+a:hover,
+.logo:hover {
+  color: rgb(0, 255, 0);
+}
+
+@media (max-width: 800px) {
+.homeSec
+{
+    padding: 2rem 1rem;
+}
+
+    .navOpen
+    {
+        display: block;
+    }
+  .fa-solid
+  {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 2.2rem;
+
+  }  
+  .navBar
+  {
+    flex-direction: column;
+  }
+
+  .navBtns
+  {
+    background-color: #240046;
+    flex-direction: column;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    padding:0.5cm;
+    border-radius: 2.2rem 2.2rem 0 0;
+    display: none;
+   
+  }
+
+  .navBtns > a 
+  {
+    margin: 0.5rem;
+
+  }
+  .cSvgcontainer
+  {
+    display: none;
+  }
+
+}
+
+
+.homeBody
+{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2cm;
+    
+}
+
+.homeBody  header  h1
+{
+
+
+    font-size: 2rem;  
+    border-bottom: #c77dff 0.1cm solid;
+    width: max-content;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    color: white;
+}
+.homeBody span{
+    color: #c77dff;
+}
+.homeBody  header  h2
+{
+
+
+    font-size: 1rem;  
+}
+
+.hometitle
+{
+
+    padding-left: 5rem;
+    
+}
+.computerSvg{
+   position: absolute;
+   right: 1cm;
+   /* background-color: #ff0000; */
+}
+
+/* .homeBody
+{
+    opacity: 0;
+    transform: translateY(2cm);
+    transition: ease-in-out;
+    transition-duration: 3s;
+    transition-delay: 1s;
+} */
+
+.ani
+{
+    opacity: 1;
+    transform: translateY(2);
+}
