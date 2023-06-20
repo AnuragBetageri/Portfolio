@@ -1,14 +1,14 @@
 import "../css/home.css";
 
 function showMenu() {
-  var menuBtm = document.getElementsByClassName("navBtns")[0];
+  // var menuBtm = document.getElementsByClassName("navBtns")[0];
 
-  menuBtm.style.display = "block";
+  // menuBtm.style.display = "block";
 }
 function removeMenu() {
-  var menuBtm = document.getElementsByClassName("navBtns")[0];
+  // var menuBtm = document.getElementsByClassName("navBtns")[0];
 
-  menuBtm.style.display = "none";
+  // menuBtm.style.display = "none";
 }
 
 
@@ -28,7 +28,7 @@ function home() {
           <a className="navLinks" onClick={removeMenu} href="">
             Start<span>/&gt;</span>
           </a>
-          <a className="navLinks" onClick={removeMenu} href="">
+          <a className="navLinks" onClick={removeMenu} href="#workSec">
             Works<span>/&gt;</span>
           </a>
           <a className="navLinks" onClick={removeMenu} href="">
