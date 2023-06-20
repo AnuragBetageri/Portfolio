@@ -6,6 +6,8 @@
   padding: 1.5rem 3rem;
   background-image: url('../images/home.jpg') ;
   border-bottom: #c77dff 0.05cm solid;
+  scroll-snap-align: start;
+
  
 }
 
@@ -14,11 +16,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation-name: float;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    position: relative;
-    animation-iteration-count: infinite; */
 }
 
 .navBar span {
@@ -28,10 +25,9 @@
   font-weight: bolder;
 }
 
-a:hover span,
+.navLinks:hover span,
 .logo:hover span {
   color: #ff0000;
-  margin: 0.1cm;
 }
 
 /* nav bar */
@@ -41,10 +37,6 @@ a:hover span,
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  /* animation-name: homeani;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: 1; */
   
   
 }
@@ -70,7 +62,7 @@ a:hover span,
         color: aliceblue;
     }
 
-a:hover,
+    .navLinks:hover,
 .logo:hover {
   color: rgb(0, 255, 0);
 }
@@ -130,28 +122,7 @@ a:hover,
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin-left: 2cm; */
-    animation-name: homeani;
-   animation-duration: 1s;
-   animation-timing-function: ease-out;
-   animation-iteration-count: 1;
-      
 }
-@keyframes homeani
-{
-    0%
-    {
-        opacity: 0;
-        transform: translateY(2cm);
-    }
-
-    100%
-    {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 
 .homeBody  header  h1
 { 
@@ -165,32 +136,11 @@ a:hover,
     
     
 }
-/* @keyframes float {
-    25%
-    {
-        transform: translateY(0.5rem);
-    transform: rotatez(10deg);
-    }
-    
-    50% {
-        transform: translateY(0rem);
-    }    
-
-    75%
-    {
-        transform: translateY(-0.5rem);
-    }
-    100% { 
-        transform: translateY(0);
-    }
-} */
 .homeBody span{
     color: #c77dff;
 }
 .homeBody  header  h2
 {
-
-    
     font-size: 1rem;  
 }
 
@@ -200,7 +150,6 @@ a:hover,
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2.5cm;
 }
 
 .hometitle
@@ -214,20 +163,14 @@ a:hover,
    right: -1cm;  
    
 }
-
-
-
-
-
 .scrollbtn
 {
     width: 1.8cm;
     height: 1.8cm;
     border-radius: 0.9cm;
-    margin-top: 2cm;
    
     font-weight: bold;
-    background-color: #240046;
+    background-color: #0d0014;
     border: #c77dff solid 0.1rem;
     color: #ffffff;
     transition-duration: 0.5s;
@@ -248,13 +191,14 @@ a:hover,
     background-color: #c77dff;
     width: 0.1rem;
     position: absolute;
-    
+  z-index: 10;
     top: 100%;
 }
 .scrollLine{
 display: flex;
 flex-direction: column;
 align-items: center;
-position: relative;
-left: -4.75cm;
+position: absolute;
+left: 13vw;
+bottom: 13vh;
 }

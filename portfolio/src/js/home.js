@@ -11,14 +11,8 @@ function removeMenu() {
   menuBtm.style.display = "none";
 }
 
-window.addEventListener("scroll", thelineani);
 
-function thelineani()
-{
-  var line = document.getElementsByClassName("the_line")[0];
-  var line_hight = (window.scrollY - 110)
-  line.style.height = line_hight + "px"
-}
+
 
 function home() {
   return (
@@ -53,26 +47,24 @@ function home() {
       <div className="homeBody">
         <header>
           <div className="hometitle">
-            
-            
-           
-            <h1>
-              Hello<br></br>I'm <span style={{color: "#fcd6e4" }}>Anurag C Betageri</span>
+            <h1 data-aos="fade-right" data-aos-duration="1000">
+              Hello<br></br>I'm{" "}
+              <span style={{ color: "#fcd6e4" }}>Anurag C Betageri</span>
             </h1>
-            <h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000">
               Coding is my creative outlet,<br></br> where I turn ideas into{" "}
               <span>functional</span> and <span>elegant</span> software.
             </h2>
           </div>
           <div className="scrollLine">
             <div className="the_line"></div>
-            <a href="">
+            <a href="#workSec" data-aos="fade-up" data-aos-duration="1000">
               <button className="scrollbtn">Scroll</button>
             </a>
           </div>
         </header>
 
-        <div className="computerSvg">
+        <div data-aos="fade-up" data-aos-duration="1000" className="computerSvg">
           <lottie-player
             src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json"
             background="transparent"

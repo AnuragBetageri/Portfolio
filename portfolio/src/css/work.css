@@ -1,0 +1,166 @@
+#workSec {
+  position: relative;
+  background-color: #0d0014;
+  width: 100vw;
+  padding-top: 10rem;
+}
+#workSec > a {
+  position: absolute;
+  left: 13vw;
+  bottom: 2cm;
+  z-index: 99;
+}
+.bg-h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 9rem;
+  font-weight: 900;
+  color: #c77dff0f;
+}
+.SectionName
+{
+margin-left: 10vw;
+display: flex;
+}
+.SectionName h1{
+  z-index: 99;
+  background-color: #0d0014;
+  color: white;
+  padding: 0.75rem;
+  font-size: larger;
+  font-weight: 600;
+}
+.SectionName span{
+  color: #7b2cbf;
+  font-size: 1.2rem;
+  margin: 0.1cm;
+  font-weight: bolder;
+}
+#proG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* background-color: rgba(101, 101, 105, 0.982); */
+  color: rgb(255, 255, 255);
+  padding: 5rem 0 15rem 0;
+  gap: 3cm;
+}
+.ProjectBody:nth-of-type(even)
+{
+  align-self: end;
+  margin-right: 6vw;
+}
+.ProjectBody:nth-of-type(odd)
+{
+  align-self: start;
+  margin-left: 6vw;
+}
+.ProjectBody {
+  display: flex;
+  
+  /* background-color: aqua; */
+}
+.ProjectDetails {
+  background-color: #0d0014;
+  /* background-color: pink; */
+  padding: 0.5rem 1rem;
+  z-index: 99;
+  border-right: #c77dff solid 2px;
+}
+.ProjectImg {
+  background-color: #0d0014;
+  padding: 0.1rem;
+  padding-bottom: .75rem;
+  border-bottom: #c77dff6e  solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ProjectImg > img {
+  width: 12cm;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.ProjectName{
+  background-color: #0d0014;
+}
+.ProjectName >h1
+{
+  font-weight: 600;
+}
+
+.ProjectName >h2
+{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.ProjectDescBody
+{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+
+}
+.ProjectDesc
+{
+  /* background-color: red; */
+}
+.stack
+{
+  display: flex;
+  padding-bottom: .75rem;
+  border-bottom: #c77dff6e solid 1px;
+  gap: 0.5cm;
+}
+
+.stackIcons
+{
+  font-size: 1.5rem;
+}
+
+.ProjectSummery
+{
+  font-size: medium;
+  width: 8cm;
+  padding-top: 0.75rem;
+}
+
+
+.visitLink
+{
+  font-size: medium;
+  border: #c77dff solid 2px;
+  color: white;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+.visitLink:hover::before
+{
+width: 100%;
+}
+.visitLink:hover
+{
+  border-color: white;
+
+}
+.visitLink::before
+{
+  content: " ";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #c77dff9f;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  z-index: -1;
+}
