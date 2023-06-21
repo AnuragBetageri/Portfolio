@@ -1,14 +1,23 @@
 #homeSec {
-  background-color: #fcd6e4;
+  background-color: #000000;
   width: 100vw;
   height: 100vh;
   color: aliceblue;
   padding: 1.5rem 3rem;
-  background-image: url('../images/home.jpg') ;
+
   border-bottom: #c77dff 0.05cm solid;
   scroll-snap-align: start;
-
- 
+}
+#homeSec::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 0;
+  background-image: url("../images/pxfuel.jpg");
 }
 
 /* Span and logo management */
@@ -16,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
 }
 
 .navBar span {
@@ -37,8 +47,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  
-  
 }
 
 .navBtns {
@@ -54,151 +62,124 @@
   align-items: center;
 }
 
-.navOpen
-    {
-        position: relative;
-        display: none;
-        z-index: 90 ;
-        color: aliceblue;
-    }
+.navOpen {
+  position: relative;
+  display: none;
+  z-index: 90;
+  color: aliceblue;
+}
 
-    .navLinks:hover,
+.navLinks:hover,
 .logo:hover {
   color: rgb(0, 255, 0);
 }
 
 @media (max-width: 800px) {
-.homeSec
-{
+  .homeSec {
     padding: 2rem 1rem;
-}
+  }
 
-    .navOpen
-    {
-        display: block;
-    }
-  .fa-solid
-  {
+  .navOpen {
+    display: block;
+  }
+  .fa-solid {
     position: fixed;
     bottom: 1.5rem;
     right: 1.5rem;
     font-size: 2.2rem;
-
-  }  
-  .navBar
-  {
+  }
+  .navBar {
     flex-direction: column;
   }
 
-  .navBtns
-  {
+  .navBtns {
     background-color: #240046;
     flex-direction: column;
     width: 100vw;
     position: fixed;
     bottom: 0;
-    padding:0.5cm;
+    padding: 0.5cm;
     border-radius: 2.2rem 2.2rem 0 0;
     display: none;
-   
   }
 
-  .navBtns > a 
-  {
+  .navBtns > a {
     margin: 0.5rem;
-
   }
-  .cSvgcontainer
-  {
+  .cSvgcontainer {
     display: none;
   }
-
 }
 
-
-.homeBody
-{
-    height: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.homeBody {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.homeBody  header  h1
-{ 
-    border-bottom: #c77dff  0.15rem solid;
-    font-size: 2rem; 
-    width: max-content;
-    padding-bottom: 0.75rem;
-    margin-bottom: 0.75rem;
-    color: white;
-    letter-spacing: 0.1rem;
-    
-    
+.homeBody header h1 {
+  border-bottom: #c77dff 0.15rem solid;
+  font-size: 2rem;
+  width: max-content;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  color: white;
+  letter-spacing: 0.1rem;
 }
-.homeBody span{
-    color: #c77dff;
+.homeBody span {
+  color: #c77dff;
 }
-.homeBody  header  h2
-{
-    font-size: 1rem;  
+.homeBody header h2 {
+  font-size: 1rem;
 }
 
-.homeBody  header 
-{
-    /* background-color: #ff0000; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.homeBody header {
+  /* background-color: #ff0000; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hometitle
-{
+.hometitle {
+  padding-left: 5rem;
+}
+.computerSvg {
+  position: relative;
+  right: -1cm;
+}
+.scrollbtn {
+  width: 1.8cm;
+  height: 1.8cm;
+  border-radius: 0.9cm;
 
-    padding-left: 5rem;
-    
-}
-.computerSvg{
-   position: relative;
-   right: -1cm;  
-   
-}
-.scrollbtn
-{
-    width: 1.8cm;
-    height: 1.8cm;
-    border-radius: 0.9cm;
-   
-    font-weight: bold;
-    background-color: #0d0014;
-    border: #c77dff solid 0.1rem;
-    color: #ffffff;
-    transition-duration: 0.5s;
-    z-index: 88;    
-    
+  font-weight: bold;
+  background-color: #0d0014;
+  border: #c77dff solid 0.1rem;
+  color: #ffffff;
+  transition-duration: 0.5s;
+  z-index: 88;
 }
 
-.scrollbtn:hover
-{
-    border: #c77dff  0.1rem solid;
-    background-color: #ffffff;
-    color: #240046;
-    transform: scale(1.1);
+.scrollbtn:hover {
+  border: #c77dff 0.1rem solid;
+  background-color: #ffffff;
+  color: #240046;
+  transform: scale(1.1);
 }
 
-.the_line
-{
-    background-color: #c77dff;
-    width: 0.1rem;
-    position: absolute;
+.the_line {
+  background-color: #c77dff;
+  width: 0.1rem;
+  position: absolute;
   z-index: 10;
-    top: 100%;
+  top: 100%;
 }
-.scrollLine{
-display: flex;
-flex-direction: column;
-align-items: center;
-position: absolute;
-left: 13vw;
-bottom: 13vh;
+.scrollLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 13vw;
+  bottom: 13vh;
 }

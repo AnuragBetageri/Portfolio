@@ -1,0 +1,59 @@
+#SkillsSec {
+  position: relative;
+  background-color: #0d0014;
+  width: 100vw;
+  padding: 10rem 0;
+}
+
+#SkillsSec > a {
+  position: absolute;
+  left: 13vw;
+  bottom: 2cm;
+  z-index: 99;
+}
+
+#SkillsSec .SectionName {
+  margin-left: 12vw;
+}
+.skillBody {
+  margin: 0 18vw;
+  margin-top: 5vh;
+}
+.skillIntro {
+  font-size: larger;
+  color: white;
+  width: max-content;
+  padding: 1rem 0;
+  border-bottom: #c77dff 0.1rem solid;
+
+}
+.techSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5.5vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2cm;
+
+}
+
+.skillImgBody
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillImage {
+  width: 4rem;
+  margin: 0.5rem;
+}
+.skillName {
+  color: aliceblue;
+}
+.skillImage:hover
+{
+  transform: scale(1.15);
+  transition: ease-in 0.1s;
+}

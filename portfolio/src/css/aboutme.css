@@ -1,0 +1,64 @@
+#AboutSec
+{
+    background-color:#1d1f21;
+    width: 100vw;
+    position: relative;
+    padding: 12rem 0;
+}
+
+
+
+#AboutSec .bg-h1{
+    color: #2d2f30;
+}
+
+#AboutSec > a {
+    position: absolute;
+    left: 13vw;
+    bottom: 2cm;
+    z-index: 99;
+  }
+
+#AboutSec .SectionName > h1{
+    background-color:#1d1f21;
+}
+
+
+.aboutmeDetailBody
+{
+    margin-left: 22vw;
+    margin-bottom: 2cm;
+}
+/* .DownloadCV::before{
+    position: relative;
+} */
+
+.DownloadCV {
+    font-size: medium;
+    border: #c77dff solid 2px;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: relative;
+    z-index: 99;
+    margin-left: 25vw;
+  }
+
+  .DownloadCV:hover {
+    border-color: white;
+  }
+  .DownloadCV::before {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c77dff9f;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    z-index: -1;
+  }
+  
+  .DownloadCV:hover::before {
+    width: 100%;
+  }

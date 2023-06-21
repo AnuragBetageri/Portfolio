@@ -8,7 +8,7 @@ function Work() {
         <span>&lt;/</span>Works
       </h1>
       <a
-        href=""
+        href="#AboutSec"
         data-aos="fade-up"
         data-aos-offset="0"
         data-aos-duration="1100"

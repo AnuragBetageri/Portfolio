@@ -1,0 +1,46 @@
+pre {
+    font-size: 15px;
+  }
+  
+  code {
+    font-size: inherit;
+  }
+
+  .my-details {
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        padding: 1rem 4rem;
+        width: 75vw;
+  }
+  
+  .my-details h2 {
+    color: #333;
+
+  }
+  
+  .my-details .detail {
+    margin-bottom: 10px;
+  }
+  
+  .my-details .label {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .my-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+  }
+  
+  .my-details ul ul {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  .my-details ul ul li {
+    margin-bottom: 5px;
+  }
+  

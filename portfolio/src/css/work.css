@@ -3,6 +3,7 @@
   background-color: #0d0014;
   width: 100vw;
   padding-top: 10rem;
+  border-bottom: gray solid 1px;
 }
 #workSec > a {
   position: absolute;
@@ -16,14 +17,13 @@
   right: 0;
   font-size: 9rem;
   font-weight: 900;
-  color: #c77dff0f;
+  color: #c77dff2d;
 }
-.SectionName
-{
-margin-left: 10vw;
-display: flex;
+.SectionName {
+  margin-left: 10vw;
+  display: flex;
 }
-.SectionName h1{
+.SectionName h1 {
   z-index: 99;
   background-color: #0d0014;
   color: white;
@@ -31,7 +31,7 @@ display: flex;
   font-size: larger;
   font-weight: 600;
 }
-.SectionName span{
+.SectionName span {
   color: #7b2cbf;
   font-size: 1.2rem;
   margin: 0.1cm;
@@ -48,19 +48,17 @@ display: flex;
   padding: 5rem 0 15rem 0;
   gap: 3cm;
 }
-.ProjectBody:nth-of-type(even)
-{
+.ProjectBody:nth-of-type(even) {
   align-self: end;
   margin-right: 6vw;
 }
-.ProjectBody:nth-of-type(odd)
-{
+.ProjectBody:nth-of-type(odd) {
   align-self: start;
   margin-left: 6vw;
 }
 .ProjectBody {
   display: flex;
-  
+
   /* background-color: aqua; */
 }
 .ProjectDetails {
@@ -68,18 +66,17 @@ display: flex;
   /* background-color: pink; */
   padding: 0.5rem 1rem;
   z-index: 99;
-  border-right: #c77dff solid 2px;
+  /* border-right: #c77dff solid 2px; */
 }
 .ProjectImg {
   background-color: #0d0014;
   padding: 0.1rem;
-  padding-bottom: .75rem;
-  border-bottom: #c77dff6e  solid 1px;
+  padding-bottom: 0.75rem;
+  border-bottom: #c77dff solid 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .ProjectImg > img {
   width: 12cm;
@@ -87,72 +84,56 @@ display: flex;
   border-radius: 0.5rem;
 }
 
-.ProjectName{
+.ProjectName {
   background-color: #0d0014;
 }
-.ProjectName >h1
-{
+.ProjectName > h1 {
   font-weight: 600;
 }
 
-.ProjectName >h2
-{
+.ProjectName > h2 {
   font-weight: 600;
   font-size: medium;
 }
 
-.ProjectDescBody
-{
+.ProjectDescBody {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   justify-content: space-between;
+}
 
-}
-.ProjectDesc
-{
-  /* background-color: red; */
-}
-.stack
-{
+.stack {
   display: flex;
-  padding-bottom: .75rem;
-  border-bottom: #c77dff6e solid 1px;
+  padding-bottom: 0.75rem;
+  border-bottom: #c77dff solid 1px;
   gap: 0.5cm;
 }
 
-.stackIcons
-{
+.stackIcons {
   font-size: 1.5rem;
 }
 
-.ProjectSummery
-{
+.ProjectSummery {
   font-size: medium;
   width: 8cm;
   padding-top: 0.75rem;
 }
 
-
-.visitLink
-{
+.visitLink {
   font-size: medium;
   border: #c77dff solid 2px;
   color: white;
   padding: 0.5rem 1rem;
   position: relative;
 }
-.visitLink:hover::before
-{
-width: 100%;
+.visitLink:hover::before {
+  width: 100%;
 }
-.visitLink:hover
-{
+.visitLink:hover {
   border-color: white;
-
 }
-.visitLink::before
-{
+.visitLink::before {
   content: " ";
   width: 0%;
   height: 100%;

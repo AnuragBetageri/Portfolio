@@ -31,14 +31,14 @@ function home() {
           <a className="navLinks" onClick={removeMenu} href="#workSec">
             Works<span>/&gt;</span>
           </a>
-          <a className="navLinks" onClick={removeMenu} href="">
+          <a className="navLinks" onClick={removeMenu} href="#AboutSec">
             About me<span>/&gt;</span>
           </a>
           <a className="navLinks" onClick={removeMenu} href="">
             Skills<span>/&gt;</span>
           </a>
 
-          <a className="navLinks" onClick={removeMenu} href="">
+          <a className="navLinks" onClick={removeMenu} href="#contactSec">
             Contact me<span>/&gt;</span>
           </a>
         </div>
@@ -52,7 +52,7 @@ function home() {
               <span style={{ color: "#fcd6e4" }}>Anurag C Betageri</span>
             </h1>
             <h2 data-aos="fade-right" data-aos-duration="1000">
-              Coding is my creative outlet,<br></br> where I turn ideas into{" "}
+              Coding is my creative outlet,<br></br> where I turn  {" "}
               <span>functional</span> and <span>elegant</span> software.
             </h2>
           </div>
