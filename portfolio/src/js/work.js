@@ -86,7 +86,7 @@ function Work() {
               </div>
             </div>
             <div className="visit">
-              <a href="#" className="visitLink">
+              <a href="https://aroundai.netlify.app/" className="visitLink">
                 Visit site
               </a>
             </div>
@@ -159,7 +159,7 @@ function Work() {
               </div>
             </div>
             <div className="visit">
-              <a href="#" className="visitLink">
+              <a href="https://aroundai.netlify.app/" className="visitLink">
                 Visit site
               </a>
             </div>
@@ -232,7 +232,7 @@ function Work() {
               </div>
             </div>
             <div className="visit">
-              <a href="#" className="visitLink">
+              <a href="https://aroundai.netlify.app/" className="visitLink">
                 Visit site
               </a>
             </div>

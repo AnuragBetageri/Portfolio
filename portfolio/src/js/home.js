@@ -2,17 +2,12 @@ import "../css/home.css";
 
 function showMenu() {
   // var menuBtm = document.getElementsByClassName("navBtns")[0];
-
   // menuBtm.style.display = "block";
 }
 function removeMenu() {
   // var menuBtm = document.getElementsByClassName("navBtns")[0];
-
   // menuBtm.style.display = "none";
 }
-
-
-
 
 function home() {
   return (
@@ -25,7 +20,7 @@ function home() {
           <i class="fa-solid fa-bars"></i>
         </div>
         <div className="navBtns">
-          <a className="navLinks" onClick={removeMenu} href="">
+          <a className="navLinks" onClick={removeMenu} href="#">
             Start<span>/&gt;</span>
           </a>
           <a className="navLinks" onClick={removeMenu} href="#workSec">
@@ -34,7 +29,7 @@ function home() {
           <a className="navLinks" onClick={removeMenu} href="#AboutSec">
             About me<span>/&gt;</span>
           </a>
-          <a className="navLinks" onClick={removeMenu} href="">
+          <a className="navLinks" onClick={removeMenu} href="#SkillsSec">
             Skills<span>/&gt;</span>
           </a>
 
@@ -52,8 +47,8 @@ function home() {
               <span style={{ color: "#fcd6e4" }}>Anurag C Betageri</span>
             </h1>
             <h2 data-aos="fade-right" data-aos-duration="1000">
-              Coding is my creative outlet,<br></br> where I turn  {" "}
-              <span>functional</span> and <span>elegant</span> software.
+              Coding is my creative outlet,<br></br> where I turn My ideas into
+              <span> functional</span> and <span>elegant</span> software.
             </h2>
           </div>
           <div className="scrollLine">
@@ -64,7 +59,11 @@ function home() {
           </div>
         </header>
 
-        <div data-aos="fade-up" data-aos-duration="1000" className="computerSvg">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="computerSvg"
+        >
           <lottie-player
             src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json"
             background="transparent"

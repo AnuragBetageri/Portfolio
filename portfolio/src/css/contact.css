@@ -1,6 +1,74 @@
 #contactSec
 {
-    background-color: red;
-    height: 100vh;
+    background-color: rgb(0, 0, 0);
     width: 100vw;
+    position: relative;
+    padding: 9rem 0;
+}
+
+#contactSec .bg-h1{
+    color: #2d2f306e;
+    font-size: 8rem;
+}
+
+#contactSec > a {
+    position: absolute;
+    left: 13vw;
+    bottom: 2cm;
+    z-index: 99;
+  }
+
+
+  #contactSec .SectionName > h1{
+    background-color:black;
+}
+
+.contactBody
+{
+    margin:1cm  25vw;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.contactBody > h2
+{
+    
+    width: max-content;
+    font-size: 1.5rem;
+    border-bottom: #c77dff 0.1rem solid;
+}
+
+.contactElements
+{
+    display: flex;
+    width: 60vw;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-top: 2cm;
+}
+
+.contact
+{
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 6cm;
+}
+
+.contactName
+{
+    font-size: 1rem;
+    margin-left: 1rem;
+    width: 4cm;
+    color: rgb(174, 174, 174);
+}
+
+.contact:hover
+{
+  color: rgb(88, 88, 88);
+  transition: ease-in 0.1s;
 }

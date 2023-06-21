@@ -17,7 +17,7 @@ export default function skills() {
         <span>&lt;/</span>Skills
       </h1>
       <a
-        href=""
+        href="#contactSec"
         data-aos="fade-up"
         data-aos-offset="0"
         data-aos-duration="1100"
@@ -33,49 +33,49 @@ export default function skills() {
         {/* <div className="nonTechSkills">
 
         </div> */}
-        <h2 className="skillIntro">
+        <h2 className="skillIntro"data-aos="fade-up" data-aos-duration="1000" >
           These are my skills which <br></br>let me turn ideas into functional
           and elegant software
         </h2>
         <div className="techSkills">
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" className="skillImgBody">
             <img className="skillImage" src={c}></img>
             <div className="skillName">C</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" className="skillImgBody">
             <img className="skillImage" src={cplus}></img>
             <div className="skillName">C++</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="100" className="skillImgBody">
             <img className="skillImage" src={java}></img>
             <div className="skillName">JAVA</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="150" className="skillImgBody">
             <img className="skillImage" src={py}></img>
             <div className="skillName">PYTHON</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="200" className="skillImgBody">
             <img className="skillImage" src={sql}></img>
             <div className="skillName">SQL</div>
           </div>
 
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className="skillImgBody">
             <img className="skillImage" src={react}></img>
             <div className="skillName">REACT</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="300" className="skillImgBody">
             <img className="skillImage" src={html}></img>
             <div className="skillName">HTML</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350" className="skillImgBody">
             <img className="skillImage" src={css}></img>
             <div className="skillName">CSS</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" className="skillImgBody">
             <img className="skillImage" src={js}></img>
             <div className="skillName">JAVA SCRIPT</div>
           </div>
-          <div className="skillImgBody">
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="450" className="skillImgBody">
             <img className="skillImage" src={mongo}></img>
             <div className="skillName">MONGO DB</div>
           </div>

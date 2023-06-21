@@ -8,7 +8,7 @@ function Aboutme() {
         <span>&lt;/</span>About Me
       </h1>
       <a
-        href=""
+        href="#SkillsSec"
         data-aos="fade-up"
         data-aos-offset="0"
         data-aos-duration="1100"
@@ -26,7 +26,7 @@ function Aboutme() {
         
         </div><div className="CV">
           <a href="#" className="DownloadCV">
-            DownloadCV
+            Download CV
           </a>
       </div>
     </section>
