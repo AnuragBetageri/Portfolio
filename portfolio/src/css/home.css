@@ -2,6 +2,7 @@
   background-color: #000000;
   width: 100vw;
   height: 100vh;
+  max-height: 1080px;
   color: aliceblue;
   padding: 1.5rem 3rem;
 
@@ -75,6 +76,7 @@
 }
 
 @media (max-width: 800px) {
+
   .homeSec {
     padding: 2rem 1rem;
   }
