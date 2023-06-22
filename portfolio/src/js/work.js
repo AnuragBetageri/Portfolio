@@ -1,5 +1,6 @@
 import "../css/work.css";
 import AroundAi from "../images/aroundAi.png";
+import inprogess from "../images/inprogress.jpg"
 
 function Work() {
   return (
@@ -16,7 +17,9 @@ function Work() {
         <button className="scrollbtn">Scroll</button>
       </a>
       <div className="SectionName">
-        <h1>My Recent Works<span >/&gt;</span> </h1>
+        <h1>
+          My Recent Works<span>/&gt;</span>{" "}
+        </h1>
       </div>
       <div id="proG">
         <div className="ProjectBody">
@@ -100,7 +103,7 @@ function Work() {
               data-aos-offset="100"
               data-aos-duration="1100"
             >
-              <img src={AroundAi}></img>
+              <img src={inprogess}></img>
             </div>
             <div
               data-aos="fade-up"
@@ -108,8 +111,8 @@ function Work() {
               data-aos-duration="1100"
               className="ProjectName"
             >
-              <h1>Around AI</h1>
-              <h2>Ai Based Text to Image generator</h2>
+              <h1>Web Template Hub</h1>
+              <h2>Make your website using pre-defined templetes</h2>
             </div>
           </div>
           <div
@@ -151,21 +154,20 @@ function Work() {
               </div>
               <div className="ProjectSummery">
                 <p>
-                  This project is an AI-based image generation tool built using
-                  ReactJS, CSS, and the OpenAI API. The tool allows users to
-                  generate high-quality images using advanced artificial
-                  intelligence algorithms.
+                  Utilizing pre-defined templates, we construct websites that
+                  embody professionalism and efficiency, resulting in visually
+                  appealing and functional online platforms.
                 </p>
               </div>
             </div>
             <div className="visit">
-              <a href="https://aroundai.netlify.app/" className="visitLink">
+              <a href="#AboutSec" className="visitLink">
                 Visit site
               </a>
             </div>
           </div>
         </div>
-        <div className="ProjectBody">
+        {/* <div className="ProjectBody">
           <div className="ProjectDetails">
             <div
               className="ProjectImg"
@@ -237,7 +239,7 @@ function Work() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
