@@ -8,12 +8,18 @@ import Aos from 'aos';
 import Skills from './skills';
 import 'aos/dist/aos.css'
 
-window.addEventListener("load", ifloaded);
-function ifloaded()
-{
-  // if(screen.width < 900)
- alert("This page is under development for mobile so it is best viewed in PC")
+window.addEventListener("load", isMobileDevice);
+
+function isMobileDevice() {
+  return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
+
+// Show alert message only on phones
+if (isMobileDevice()) {
+  alert("This page is under development for mobile so it is best viewed in PC");
+}
+
+
 window.addEventListener("scroll", thelineani);
 
 function thelineani()
