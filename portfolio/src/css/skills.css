@@ -16,8 +16,8 @@
   margin-left: 12vw;
 }
 .skillBody {
-  margin: 0 18vw;
-  margin-top: 5vh;
+  margin:1cm  15vw 0 25vw;
+
 }
 .skillIntro {
   font-size: larger;
@@ -31,10 +31,11 @@
 .techSkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 5.5vw;
+  gap: 5vw;
   align-items: center;
   justify-content: center;
   margin-top: 2cm;
+  
 
 }
 
