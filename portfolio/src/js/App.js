@@ -11,6 +11,7 @@ import 'aos/dist/aos.css'
 window.addEventListener("load", isMobileDevice);
 
 function isMobileDevice() {
+  document.body.style.zoom = "1";
   return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
 
