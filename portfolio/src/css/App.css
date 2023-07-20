@@ -17,10 +17,8 @@ html {
 a {
   text-decoration: none;
 }
-/* #App
+#App
 {
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  overflow-y: scroll;
-} */
+  height: max-content;
+}
 
