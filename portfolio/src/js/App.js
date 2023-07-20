@@ -36,6 +36,7 @@ function thelineani()
   var aboutmeSec = document.getElementById("AboutSec")
   var line_hight = ((window.scrollY - 30)*lineMul)
   line.style.height = line_hight + "px"
+  
   // if(line.getBoundingClientRect().bottom > aboutmeSec.getBoundingClientRect().top )
   // {
   //   line.style.backgroundColor = "#6c757d"

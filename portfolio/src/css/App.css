@@ -20,5 +20,6 @@ a {
 #App
 {
   height: max-content;
+  overflow: hidden;
 }
 
