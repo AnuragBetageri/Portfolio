@@ -90,6 +90,9 @@
 .ProjectName > h1 {
   font-weight: 600;
 }
+.ProjectName > h1> span{
+  font-weight: 300;
+}
 
 .ProjectName > h2 {
   font-weight: 600;

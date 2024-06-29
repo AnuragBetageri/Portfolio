@@ -32,16 +32,26 @@
 /* .DownloadCV::before{
     position: relative;
 } */
-
-.DownloadCV {
+.CV_sec
+{
+  /* background-color: aliceblue; */
+  display: flex;
+  column-gap: 3cm;
+  margin-left: 20%;
+  width: max-content;
+}
+.DownloadCV{
     font-size: medium;
     border: #c77dff solid 2px;
-    color: white;
+   color: white;
     padding: 0.5rem 1rem;
-    position: relative;
-    z-index: 99;
-    margin-left: 25vw;
+  position: relative;
+    z-index: 50;
+    width: max-content;
   }
+.DownloadCV > a {
+  color: white;
+}
 
   .DownloadCV:hover {
     border-color: white;
@@ -62,3 +72,4 @@
   .DownloadCV:hover::before {
     width: 100%;
   }
+ 

@@ -8,6 +8,7 @@ import java from "../images/java.png";
 import js from "../images/js.png";
 import py from "../images/py.png";
 import react from "../images/react.png";
+import Angular from "../images/Angular.png";
 import sql from "../images/sql.png";
 import mongo from "../images/mongo.png";
 export default function skills() {
@@ -62,6 +63,10 @@ export default function skills() {
           <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className="skillImgBody">
             <img className="skillImage" src={react}></img>
             <div className="skillName">REACT</div>
+          </div>
+          <div href="#workSec" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" className="skillImgBody">
+            <img className="skillImage" src={Angular}></img>
+            <div className="skillName">Angular </div>
           </div>
           <div href="#workSec" data-aos="fade-up" data-aos-duration="1000"data-aos-delay="300" className="skillImgBody">
             <img className="skillImage" src={html}></img>

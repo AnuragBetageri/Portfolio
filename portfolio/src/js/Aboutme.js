@@ -1,7 +1,11 @@
 import "../css/aboutme.css";
 import CodeDisplay from "./code";
+import DisplayCode from "./displayCode";
+
+
 
 function Aboutme() {
+
   return (
     <section id="AboutSec">
       <h1 className="bg-h1" data-aos="fade-up" data-aos-duration="1100">
@@ -23,12 +27,22 @@ function Aboutme() {
       <div></div>
       <div className="aboutmeDetailBody">
         <CodeDisplay></CodeDisplay>
-        
-        </div><div className="CV">
-          <a href="#" className="DownloadCV">
-            Download CV
-          </a>
       </div>
+
+      <div className="CV_sec">
+      <div className="DownloadCV">
+        <a
+          href="https://drive.google.com/file/d/1FrVqqDPMkGG_nhbtyAuoJxLdgEfo6fvq/view?usp=sharing"
+          
+        >
+          Download CV
+        </a>
+      </div>
+      <DisplayCode></DisplayCode>
+      
+      </div>
+
+ 
     </section>
   );
 }

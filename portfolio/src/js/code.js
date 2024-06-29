@@ -13,14 +13,14 @@ const CodeDisplay = () => {
 
   def __init__(self):
       self.name = "Anurag C Betageri"
-      self.age = 21
+      self.age = 22
       self.education = {
 
           "underGraduation": {
 
               "University":     "Reva University, Bangalore, India",
               "Course/Board":   "B Tech Computer Science",
-              "year":    "Still studying"
+              "year":    "2024"
           },
 
           "preUniversity": {
@@ -42,9 +42,12 @@ const CodeDisplay = () => {
 
   # Display details function
   def display_details(self):
+      print("")
       print("Name:", self.name)
       print("Age:", self.age)
+      print("")
       print("Education:")
+      print("_________________________________________")
       for level in self.education:
           print(level + ":")
           details = self.education[level]
@@ -53,7 +56,8 @@ const CodeDisplay = () => {
               print(key + ":", value)
           print()
       print("Hobbies:", self.hobbies)
-
+      print("")
+      print("=== Thank You ===")  
 
 # Creating an instance of the My_Details class
 Anurag_info = My_Details()
@@ -61,6 +65,7 @@ Anurag_info = My_Details()
 # Displaying details of My_Details
 print("My_Details Details:")
 Anurag_info.display_details()
+
 
 `;
 
