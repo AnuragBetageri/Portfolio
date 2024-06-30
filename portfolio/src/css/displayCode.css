@@ -39,23 +39,27 @@
     z-index: 1;
     left: 0;
     top: 0;
-    width: 89%;
+    width: 100%;
     height: max-content;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-    padding-top: 60px;
     z-index: 99;
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(40, 40, 40);
     margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    color: white;
+    width: 60%;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    border-radius: 0.25cm;
+    overflow: hidden;
+  }
+.close_bar
+{
+  width: 100%;
+  background-color: azure;
+  height: 1cm;
+  padding-right: 0.5cm;
 }
-
 .close {
     color: #aaa;
     float: right;
@@ -65,7 +69,12 @@
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     cursor: pointer;
+}
+.output
+{
+  padding: 1cm;
+  font-size: 0.9em;
 }
