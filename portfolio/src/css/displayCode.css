@@ -57,7 +57,7 @@
 {
   width: 100%;
   background-color: azure;
-  height: 1cm;
+  height: 0.8cm;
   padding-right: 0.5cm;
 }
 .close {
@@ -65,6 +65,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin: -0.15cm 0;
 }
 
 .close:hover,
@@ -75,6 +76,6 @@
 }
 .output
 {
-  padding: 1cm;
-  font-size: 0.9em;
+  padding: 0.5cm 1cm;
+  font-size: 0.65em;
 }

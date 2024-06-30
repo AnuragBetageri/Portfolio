@@ -16,6 +16,7 @@ function home() {
             <div className="the_line"></div>
             <a href="#workSec" 
             data-aos="fade-up" data-aos-duration="1000"
+             data-aos-offset="50"
             >
               <button className="scrollbtn">Scroll</button>
             </a>
