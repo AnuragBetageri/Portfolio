@@ -48,11 +48,12 @@
 }
 
 .skillImage {
-  width: 4rem;
-  margin: 0.5rem;
+  width: 3rem;
+  margin: 0.2rem;
 }
 .skillName {
   color: aliceblue;
+  font-size: 0.8rem;
 }
 .skillImage:hover
 {

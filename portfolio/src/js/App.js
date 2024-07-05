@@ -19,7 +19,7 @@ function isMobileDevice() {
 
 // Show alert message only on phones
 if (isMobileDevice()) {
-  lineMul = 1.27;
+  lineMul = 1.25;
   alert("This page is under development for mobile so it is best viewed in PC");
 }
 else

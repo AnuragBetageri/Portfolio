@@ -9,7 +9,7 @@ function Contactme() {
       <a
         href="#"
         data-aos="fade-up"
-        data-aos-offset="0"
+        data-aos-offset="-500"
         data-aos-duration="1100"
       >
         <button className="scrollbtn">Top</button>

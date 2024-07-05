@@ -123,7 +123,7 @@
 
 .homeBody header h1 {
   border-bottom: #c77dff 0.15rem solid;
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: max-content;
   padding-bottom: 0.75rem;
   margin-bottom: 0.75rem;
@@ -134,7 +134,7 @@
   color: #c77dff;
 }
 .homeBody header h2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .homeBody header {

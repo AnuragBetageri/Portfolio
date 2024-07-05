@@ -14,7 +14,7 @@ function Work() {
       <a
         href="#AboutSec"
         data-aos="fade-up"
-        data-aos-offset="0"
+        data-aos-offset="-100"
         data-aos-duration="1100"
       >
         <button className="scrollbtn">Scroll</button>
@@ -38,7 +38,7 @@ function Work() {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-offset="100"
+              data-aos-offset="-50"
               data-aos-duration="1100"
               className="ProjectName"
             >
@@ -114,7 +114,7 @@ function Work() {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-offset="100"
+              data-aos-offset="-50"
               data-aos-duration="1100"
               className="ProjectName"
             >
@@ -191,7 +191,7 @@ function Work() {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-offset="100"
+              data-aos-offset="-50"
               data-aos-duration="1100"
               className="ProjectName"
             >
@@ -269,7 +269,7 @@ function Work() {
             </div>
             <div
               data-aos="fade-up"
-              data-aos-offset="100"
+              data-aos-offset="-50"
               data-aos-duration="1100"
               className="ProjectName"
             >

@@ -1,81 +1,78 @@
-.runCode{
-    font-size: medium;
-    border: #c77dff solid 2px;
-   color: white;
-    padding: 0.5rem 1rem;
-    background-color: rgba(255, 255, 255, 0);
+.runCode {
+  font-size: medium;
+  border: #c77dff solid 2px;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0);
   position: relative;
-    z-index: 50;
-    width: max-content;
-  }
+  z-index: 50;
+  width: max-content;
+}
 .runCode > a {
   color: white;
 }
 
-  .runCode:hover {
-    border-color: white;
-  }
-  .runCode::before {
-    content: " ";
-    width: 0%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #c77dff9f;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in;
-    z-index: -1;
-  }
-  
-  .runCode:hover::before {
-    width: 100%;
-  }
+.runCode:hover {
+  border-color: white;
+}
+.runCode::before {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #c77dff9f;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  z-index: -1;
+}
 
+.runCode:hover::before {
+  width: 100%;
+}
 
 .modal {
-    display: block; /* Show the modal */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: max-content;
-    z-index: 99;
+  display: block; /* Show the modal */
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 10%;
+  width: 100%;
+  height: max-content;
+  z-index: 100;
 }
 
 .modal-content {
-    background-color: rgb(40, 40, 40);
-    margin: 5% auto;
-    color: white;
-    width: 60%;
-    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
-    border-radius: 0.25cm;
-    overflow: hidden;
-  }
-.close_bar
-{
+  background-color: rgb(40, 40, 40);
+  margin: 0% auto;
+  color: white;
+  width: 60%;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25cm;
+  overflow: hidden;
+}
+.close_bar {
   width: 100%;
   background-color: azure;
   height: 0.8cm;
   padding-right: 0.5cm;
 }
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    margin: -0.15cm 0;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin: -0.15cm 0;
 }
 
 .close:hover,
 .close:focus {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
 }
-.output
-{
+.output {
   padding: 0.5cm 1cm;
   font-size: 0.65em;
 }

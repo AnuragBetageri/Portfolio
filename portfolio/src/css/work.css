@@ -15,7 +15,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 9rem;
+  font-size: 7rem;
   font-weight: 900;
   color: #c77dff2d;
 }
@@ -28,12 +28,12 @@
   background-color: #0d0014;
   color: white;
   padding: 0.75rem;
-  font-size: larger;
+  font-size: 1rem;
   font-weight: 600;
 }
 .SectionName span {
   color: #7b2cbf;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.1cm;
   font-weight: bolder;
 }
@@ -79,7 +79,7 @@
   align-items: center;
 }
 .ProjectImg > img {
-  width: 12cm;
+  width: 10cm;
   height: auto;
   border-radius: 0.5rem;
 }
@@ -89,6 +89,7 @@
 }
 .ProjectName > h1 {
   font-weight: 600;
+  font-size: 1.3rem;
 }
 .ProjectName > h1> span{
   font-weight: 300;
@@ -96,14 +97,17 @@
 
 .ProjectName > h2 {
   font-weight: 600;
-  font-size: medium;
+  font-size: 0.8rem;
+  color: rgb(212, 212, 212);
 }
 
 .ProjectDescBody {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.8rem;
+  padding-bottom: 0.6cm;
   justify-content: space-between;
+  /* background-color: rgb(255, 0, 123); */
 }
 
 .stack {
@@ -114,17 +118,17 @@
 }
 
 .stackIcons {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .ProjectSummery {
-  font-size: medium;
+  font-size: 0.8rem;
   width: 8cm;
   padding-top: 0.75rem;
 }
 
 .visitLink {
-  font-size: medium;
+  font-size: 0.8rem;
   border: #c77dff solid 2px;
   color: white;
   padding: 0.5rem 1rem;

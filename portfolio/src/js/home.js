@@ -13,14 +13,16 @@ function home() {
   return (
     <section id="homeSec">
       <div className="scrollLine">
-            <div className="the_line"></div>
-            <a href="#workSec" 
-            data-aos="fade-up" data-aos-duration="1000"
-             data-aos-offset="50"
-            >
-              <button className="scrollbtn">Scroll</button>
-            </a>
-          </div>
+        <div className="the_line"></div>
+        <a
+          href="#workSec"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-offset="100"
+        >
+          <button className="scrollbtn">Scroll</button>
+        </a>
+      </div>
       <nav className="navBar">
         <div className="logo">
           <span>&lt;</span>Anurag<span>&gt;</span>
@@ -60,7 +62,6 @@ function home() {
               <span> functional</span> and <span>elegant</span> software.
             </h2>
           </div>
-          
         </header>
 
         <div
